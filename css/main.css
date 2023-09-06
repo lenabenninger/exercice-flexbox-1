@@ -26,11 +26,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
+.section {
+  color: var(--white);
+  background-color: var(--green);
+  color: #FFEFEF;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.section .box {
+  background-color: var(--dark-blue);
+  padding: 20px;
+  margin: 10px;
+}
 a {
   color: inherit;
 }
